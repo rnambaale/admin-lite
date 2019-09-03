@@ -3,24 +3,48 @@
 @section('extra-css')
     @parent
     {{-- BEGIN THEME GLOBAL STYLES --}}
-    {{-- <link href="{{  asset('css/plugins-md.min.css') }}" rel="stylesheet" type="text/css" /> --}}
-    {{-- END THEME GLOBAL STYLES --}}
-    {{-- BEGIN PAGE LEVEL STYLES --}}
-    {{-- <link href="{{ asset('plugins/bootstrap-daterangepicker/daterangepicker.min.css') }}" rel="stylesheet" type="text/css"/>
-    <link href="{{ asset('plugins/morris/morris.css') }}" rel="stylesheet" type="text/css"/>
-    <link href="{{ asset('plugins/fullcalendar/fullcalendar.min.css') }}" rel="stylesheet" type="text/css"/>
-    <link href="{{ asset('plugins/jqvmap/jqvmap/jqvmap.css') }}" rel="stylesheet" type="text/css"/> --}}
+    {{-- Ionicons --}}
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    {{-- Tempusdominus Bbootstrap 4 --}}
+    <link rel="stylesheet" href="{{ asset('plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css') }}">
     {{-- END PAGE LEVEL STYLES --}}
+    {{-- iCheck --}}
+    <link rel="stylesheet" href="{{ asset('plugins/icheck-bootstrap/icheck-bootstrap.min.css') }}">
+    {{-- JQVMap --}}
+    <link rel="stylesheet" href="{{ asset('plugins/jqvmap/jqvmap.min.css') }}">
+    {{-- Daterange picker --}}
+    <link rel="stylesheet" href="{{ asset('plugins/daterangepicker/daterangepicker.css') }}">
+    {{-- summernote --}}
+    <link rel="stylesheet" href="{{ asset('plugins/summernote/summernote-bs4.css') }}">
 @endsection
 
 
 @push('extra-js')
-{{-- BEGIN PAGE LEVEL SCRIPTS --}}
-{{-- <script src="{{ asset('plugins/moment.min.js') }}" type="text/javascript"></script>
-<script src="{{ asset('plugins/bootstrap-daterangepicker/daterangepicker.min.js') }}" type="text/javascript"></script>
-<script src="{{ asset('plugins/morris/morris.min.js') }}" type="text/javascript"></script>
-<script src="{{ asset('plugins/morris/raphael-min.js') }}" type="text/javascript"></script>
-{{-- END PAGE LEVEL SCRIPTS --}}
+{{-- Sparkline --}}
+<script src="{{ asset('plugins/sparklines/sparkline.js') }}"></script>
+{{-- JQVMap  --}}
+<script src="{{ asset('plugins/jqvmap/jquery.vmap.min.js') }}"></script>
+<script src="{{ asset('plugins/jqvmap/maps/jquery.vmap.world.js') }}"></script>
+{{-- jQuery Knob Chart --}}
+<script src="{{ asset('plugins/jquery-knob/jquery.knob.min.js') }}"></script>
+{{-- daterangepicker --}}
+<script src="{{ asset('plugins/moment/moment.min.js') }}"></script>
+<script src="{{ asset('plugins/daterangepicker/daterangepicker.js') }}"></script>
+{{-- Tempusdominus Bootstrap 4 --}}
+<script src="{{ asset('plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js') }}"></script>
+{{-- Summernote --}}
+<script src="{{ asset('plugins/summernote/summernote-bs4.min.js') }}"></script>
+
+{{-- jQuery UI 1.11.4 --}}
+<script src="{{ asset('plugins/jquery-ui/jquery-ui.min.js') }}"></script>
+{{-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip --}}
+<script>
+  $.widget.bridge('uibutton', $.ui.button)
+</script>
+{{-- AdminLTE dashboard demo (This is only for demo purposes) --}}
+<script src="{{ asset('dist/js/pages/dashboard.js') }}"></script>
+{{-- AdminLTE for demo purposes --}}
+
 @endpush
 
 @section('main-content')

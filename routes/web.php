@@ -12,3 +12,4 @@
 */
 
 Route::get('/', 'ViewController@show_index');
+Route::get('/index_2', 'ViewController@show_index_2');
