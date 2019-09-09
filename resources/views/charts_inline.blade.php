@@ -8,11 +8,11 @@
 
 @push('extra-js')
     <!-- jQuery Knob -->
-    <script src="{{ asset('plugins/jquery-knob/jquery.knob.min.js') }}"></script>
+    <script src="{{ asset('admin-lte/plugins/jquery-knob/jquery.knob.min.js') }}"></script>
     <!-- Sparkline -->
-    <script src="{{ asset('plugins/sparkline/jquery.sparkline.min.js') }}"></script>
+    <script src="{{ asset('admin-lte/plugins/sparkline/jquery.sparkline.min.js') }}"></script>
     <!-- page script -->
-    <script src="{{ asset('js/inline_chart.js') }}"></script>
+    <script src="{{ asset('js/pages/charts_inline.js') }}"></script>
 
 @endpush
 

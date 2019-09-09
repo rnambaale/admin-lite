@@ -6,43 +6,43 @@
     {{-- Ionicons --}}
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     {{-- Tempusdominus Bbootstrap 4 --}}
-    <link rel="stylesheet" href="{{ asset('plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('admin-lte/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css') }}">
     {{-- END PAGE LEVEL STYLES --}}
     {{-- iCheck --}}
-    <link rel="stylesheet" href="{{ asset('plugins/icheck-bootstrap/icheck-bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('admin-lte/plugins/icheck-bootstrap/icheck-bootstrap.min.css') }}">
     {{-- JQVMap --}}
-    <link rel="stylesheet" href="{{ asset('plugins/jqvmap/jqvmap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('admin-lte/plugins/jqvmap/jqvmap.min.css') }}">
     {{-- Daterange picker --}}
-    <link rel="stylesheet" href="{{ asset('plugins/daterangepicker/daterangepicker.css') }}">
+    <link rel="stylesheet" href="{{ asset('admin-lte/plugins/daterangepicker/daterangepicker.css') }}">
     {{-- summernote --}}
-    <link rel="stylesheet" href="{{ asset('plugins/summernote/summernote-bs4.css') }}">
+    <link rel="stylesheet" href="{{ asset('admin-lte/plugins/summernote/summernote-bs4.css') }}">
 @endsection
 
 
 @push('extra-js')
 {{-- Sparkline --}}
-<script src="{{ asset('plugins/sparklines/sparkline.js') }}"></script>
+<script src="{{ asset('admin-lte/plugins/sparklines/sparkline.js') }}"></script>
 {{-- JQVMap  --}}
-<script src="{{ asset('plugins/jqvmap/jquery.vmap.min.js') }}"></script>
-<script src="{{ asset('plugins/jqvmap/maps/jquery.vmap.world.js') }}"></script>
+<script src="{{ asset('admin-lte/plugins/jqvmap/jquery.vmap.min.js') }}"></script>
+<script src="{{ asset('admin-lte/plugins/jqvmap/maps/jquery.vmap.world.js') }}"></script>
 {{-- jQuery Knob Chart --}}
-<script src="{{ asset('plugins/jquery-knob/jquery.knob.min.js') }}"></script>
+<script src="{{ asset('admin-lte/plugins/jquery-knob/jquery.knob.min.js') }}"></script>
 {{-- daterangepicker --}}
-<script src="{{ asset('plugins/moment/moment.min.js') }}"></script>
-<script src="{{ asset('plugins/daterangepicker/daterangepicker.js') }}"></script>
+<script src="{{ asset('admin-lte/plugins/moment/moment.min.js') }}"></script>
+<script src="{{ asset('admin-lte/plugins/daterangepicker/daterangepicker.js') }}"></script>
 {{-- Tempusdominus Bootstrap 4 --}}
-<script src="{{ asset('plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js') }}"></script>
+<script src="{{ asset('admin-lte/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js') }}"></script>
 {{-- Summernote --}}
-<script src="{{ asset('plugins/summernote/summernote-bs4.min.js') }}"></script>
+<script src="{{ asset('admin-lte/plugins/summernote/summernote-bs4.min.js') }}"></script>
 
 {{-- jQuery UI 1.11.4 --}}
-<script src="{{ asset('plugins/jquery-ui/jquery-ui.min.js') }}"></script>
+<script src="{{ asset('admin-lte/plugins/jquery-ui/jquery-ui.min.js') }}"></script>
 {{-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip --}}
 <script>
   $.widget.bridge('uibutton', $.ui.button)
 </script>
 {{-- AdminLTE dashboard demo (This is only for demo purposes) --}}
-<script src="{{ asset('dist/js/pages/dashboard.js') }}"></script>
+<script src="{{ asset('admin-lte/dist/js/pages/dashboard.js') }}"></script>
 {{-- AdminLTE for demo purposes --}}
 
 @endpush
@@ -206,7 +206,7 @@
                       <span class="direct-chat-timestamp float-right">23 Jan 2:00 pm</span>
                     </div>
                     {{-- /.direct-chat-infos --}}
-                    <img class="direct-chat-img" src="dist/img/user1-128x128.jpg" alt="message user image">
+                    <img class="direct-chat-img" src="{{ asset('admin-lte/dist/img/user1-128x128.jpg') }}" alt="message user image">
                     {{-- /.direct-chat-img --}}
                     <div class="direct-chat-text">
                       Is this template really for free? That's unbelievable!
@@ -222,7 +222,7 @@
                       <span class="direct-chat-timestamp float-left">23 Jan 2:05 pm</span>
                     </div>
                     {{-- /.direct-chat-infos --}}
-                    <img class="direct-chat-img" src="dist/img/user3-128x128.jpg" alt="message user image">
+                    <img class="direct-chat-img" src="{{ asset('admin-lte/dist/img/user3-128x128.jpg') }}" alt="message user image">
                     {{-- /.direct-chat-img --}}
                     <div class="direct-chat-text">
                       You better believe it!
@@ -238,7 +238,7 @@
                       <span class="direct-chat-timestamp float-right">23 Jan 5:37 pm</span>
                     </div>
                     {{-- /.direct-chat-infos --}}
-                    <img class="direct-chat-img" src="dist/img/user1-128x128.jpg" alt="message user image">
+                    <img class="direct-chat-img" src="{{ asset('admin-lte/dist/img/user1-128x128.jpg') }}" alt="message user image">
                     {{-- /.direct-chat-img --}}
                     <div class="direct-chat-text">
                       Working with AdminLTE on a great new app! Wanna join?
@@ -254,7 +254,7 @@
                       <span class="direct-chat-timestamp float-left">23 Jan 6:10 pm</span>
                     </div>
                     {{-- /.direct-chat-infos --}}
-                    <img class="direct-chat-img" src="dist/img/user3-128x128.jpg" alt="message user image">
+                    <img class="direct-chat-img" src="{{ asset('admin-lte/dist/img/user3-128x128.jpg') }}" alt="message user image">
                     {{-- /.direct-chat-img --}}
                     <div class="direct-chat-text">
                       I would love to.
@@ -271,7 +271,7 @@
                   <ul class="contacts-list">
                     <li>
                       <a href="#">
-                        <img class="contacts-list-img" src="dist/img/user1-128x128.jpg">
+                        <img class="contacts-list-img" src="{{ asset('admin-lte/dist/img/user1-128x128.jpg') }}">
 
                         <div class="contacts-list-info">
                           <span class="contacts-list-name">
@@ -286,7 +286,7 @@
                     {{-- End Contact Item --}}
                     <li>
                       <a href="#">
-                        <img class="contacts-list-img" src="dist/img/user7-128x128.jpg">
+                        <img class="contacts-list-img" src="{{ asset('admin-lte/dist/img/user7-128x128.jpg') }}">
 
                         <div class="contacts-list-info">
                           <span class="contacts-list-name">
@@ -301,7 +301,7 @@
                     {{-- End Contact Item --}}
                     <li>
                       <a href="#">
-                        <img class="contacts-list-img" src="dist/img/user3-128x128.jpg">
+                        <img class="contacts-list-img" src="{{ asset('admin-lte/dist/img/user3-128x128.jpg') }}">
 
                         <div class="contacts-list-info">
                           <span class="contacts-list-name">
@@ -316,7 +316,7 @@
                     {{-- End Contact Item --}}
                     <li>
                       <a href="#">
-                        <img class="contacts-list-img" src="dist/img/user5-128x128.jpg">
+                        <img class="contacts-list-img" src="{{ asset('admin-lte/dist/img/user5-128x128.jpg') }}">
 
                         <div class="contacts-list-info">
                           <span class="contacts-list-name">
@@ -331,7 +331,7 @@
                     {{-- End Contact Item --}}
                     <li>
                       <a href="#">
-                        <img class="contacts-list-img" src="dist/img/user6-128x128.jpg">
+                        <img class="contacts-list-img" src="{{ asset('admin-lte/dist/img/user6-128x128.jpg') }}">
 
                         <div class="contacts-list-info">
                           <span class="contacts-list-name">
@@ -346,7 +346,7 @@
                     {{-- End Contact Item --}}
                     <li>
                       <a href="#">
-                        <img class="contacts-list-img" src="dist/img/user8-128x128.jpg">
+                        <img class="contacts-list-img" src="{{ asset('admin-lte/dist/img/user8-128x128.jpg') }}">
 
                         <div class="contacts-list-info">
                           <span class="contacts-list-name">

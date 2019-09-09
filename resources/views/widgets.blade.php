@@ -908,7 +908,7 @@
                     <span class="direct-chat-timestamp float-right">23 Jan 2:00 pm</span>
                 </div>
                 <!-- /.direct-chat-infos -->
-                <img class="direct-chat-img" src="../dist/img/user1-128x128.jpg" alt="Message User Image">
+                <img class="direct-chat-img" src="{{ asset('admin-lte/dist/img/user1-128x128.jpg') }}" alt="Message User Image">
                 <!-- /.direct-chat-img -->
                 <div class="direct-chat-text">
                     Is this template really for free? That's unbelievable!
@@ -924,7 +924,7 @@
                     <span class="direct-chat-timestamp float-left">23 Jan 2:05 pm</span>
                 </div>
                 <!-- /.direct-chat-infos -->
-                <img class="direct-chat-img" src="../dist/img/user3-128x128.jpg" alt="Message User Image">
+                <img class="direct-chat-img" src="{{ asset('admin-lte/dist/img/user3-128x128.jpg') }}" alt="Message User Image">
                 <!-- /.direct-chat-img -->
                 <div class="direct-chat-text">
                     You better believe it!
@@ -940,7 +940,7 @@
                 <ul class="contacts-list">
                 <li>
                     <a href="#">
-                    <img class="contacts-list-img" src="../dist/img/user1-128x128.jpg">
+                    <img class="contacts-list-img" src="{{ asset('admin-lte/dist/img/user1-128x128.jpg') }}">
 
                     <div class="contacts-list-info">
                         <span class="contacts-list-name">
@@ -1003,7 +1003,7 @@
                     <span class="direct-chat-timestamp float-right">23 Jan 2:00 pm</span>
                 </div>
                 <!-- /.direct-chat-infos -->
-                <img class="direct-chat-img" src="../dist/img/user1-128x128.jpg" alt="Message User Image">
+                <img class="direct-chat-img" src="{{ asset('admin-lte/dist/img/user1-128x128.jpg') }}" alt="Message User Image">
                 <!-- /.direct-chat-img -->
                 <div class="direct-chat-text">
                     Is this template really for free? That's unbelievable!
@@ -1019,7 +1019,7 @@
                     <span class="direct-chat-timestamp float-left">23 Jan 2:05 pm</span>
                 </div>
                 <!-- /.direct-chat-infos -->
-                <img class="direct-chat-img" src="../dist/img/user3-128x128.jpg" alt="Message User Image">
+                <img class="direct-chat-img" src="{{ asset('admin-lte/dist/img/user3-128x128.jpg') }}" alt="Message User Image">
                 <!-- /.direct-chat-img -->
                 <div class="direct-chat-text">
                     You better believe it!
@@ -1035,7 +1035,7 @@
                 <ul class="contacts-list">
                 <li>
                     <a href="#">
-                    <img class="contacts-list-img" src="../dist/img/user1-128x128.jpg">
+                    <img class="contacts-list-img" src="{{ asset('admin-lte/dist/img/user1-128x128.jpg') }}">
 
                     <div class="contacts-list-info">
                         <span class="contacts-list-name">
@@ -1098,7 +1098,7 @@
                     <span class="direct-chat-timestamp float-right">23 Jan 2:00 pm</span>
                 </div>
                 <!-- /.direct-chat-infos -->
-                <img class="direct-chat-img" src="../dist/img/user1-128x128.jpg" alt="Message User Image">
+                <img class="direct-chat-img" src="{{ asset('admin-lte/dist/img/user1-128x128.jpg') }}" alt="Message User Image">
                 <!-- /.direct-chat-img -->
                 <div class="direct-chat-text">
                     Is this template really for free? That's unbelievable!
@@ -1114,7 +1114,7 @@
                     <span class="direct-chat-timestamp float-left">23 Jan 2:05 pm</span>
                 </div>
                 <!-- /.direct-chat-infos -->
-                <img class="direct-chat-img" src="../dist/img/user3-128x128.jpg" alt="Message User Image">
+                <img class="direct-chat-img" src="{{ asset('admin-lte/dist/img/user3-128x128.jpg') }}" alt="Message User Image">
                 <!-- /.direct-chat-img -->
                 <div class="direct-chat-text">
                     You better believe it!
@@ -1130,7 +1130,7 @@
                 <ul class="contacts-list">
                 <li>
                     <a href="#">
-                    <img class="contacts-list-img" src="../dist/img/user1-128x128.jpg">
+                    <img class="contacts-list-img" src="{{ asset('admin-lte/dist/img/user1-128x128.jpg') }}">
 
                     <div class="contacts-list-info">
                         <span class="contacts-list-name">
@@ -1193,7 +1193,7 @@
                     <span class="direct-chat-timestamp float-right">23 Jan 2:00 pm</span>
                 </div>
                 <!-- /.direct-chat-infos -->
-                <img class="direct-chat-img" src="../dist/img/user1-128x128.jpg" alt="Message User Image">
+                <img class="direct-chat-img" src="{{ asset('admin-lte/dist/img/user1-128x128.jpg') }}" alt="Message User Image">
                 <!-- /.direct-chat-img -->
                 <div class="direct-chat-text">
                     Is this template really for free? That's unbelievable!
@@ -1209,7 +1209,7 @@
                     <span class="direct-chat-timestamp float-left">23 Jan 2:05 pm</span>
                 </div>
                 <!-- /.direct-chat-infos -->
-                <img class="direct-chat-img" src="../dist/img/user3-128x128.jpg" alt="Message User Image">
+                <img class="direct-chat-img" src="{{ asset('admin-lte/dist/img/user3-128x128.jpg') }}" alt="Message User Image">
                 <!-- /.direct-chat-img -->
                 <div class="direct-chat-text">
                     You better believe it!
@@ -1225,7 +1225,7 @@
                 <ul class="contacts-list">
                 <li>
                     <a href="#">
-                    <img class="contacts-list-img" src="../dist/img/user1-128x128.jpg">
+                    <img class="contacts-list-img" src="{{ asset('admin-lte/dist/img/user1-128x128.jpg') }}">
 
                     <div class="contacts-list-info">
                         <span class="contacts-list-name">
@@ -1271,7 +1271,7 @@
             <!-- Add the bg color to the header using any of the bg-* classes -->
             <div class="widget-user-header bg-warning">
             <div class="widget-user-image">
-                <img class="img-circle elevation-2" src="../dist/img/user7-128x128.jpg" alt="User Avatar">
+                <img class="img-circle elevation-2" src="{{ asset('admin-lte/dist/img/user7-128x128.jpg') }}" alt="User Avatar">
             </div>
             <!-- /.widget-user-image -->
             <h3 class="widget-user-username">Nadia Carmichael</h3>
@@ -1314,7 +1314,7 @@
             <h5 class="widget-user-desc">Founder & CEO</h5>
             </div>
             <div class="widget-user-image">
-            <img class="img-circle elevation-2" src="../dist/img/user1-128x128.jpg" alt="User Avatar">
+            <img class="img-circle elevation-2" src="{{ asset('admin-lte/dist/img/user1-128x128.jpg') }}" alt="User Avatar">
             </div>
             <div class="card-footer">
             <div class="row">
@@ -1354,12 +1354,12 @@
         <div class="card card-widget widget-user">
             <!-- Add the bg color to the header using any of the bg-* classes -->
             <div class="widget-user-header text-white"
-                style="background: url('../dist/img/photo1.png') center center;">
+                style="background: url('{{ asset('admin-lte/dist/img/photo1.png') }}') center center;">
             <h3 class="widget-user-username text-right">Elizabeth Pierce</h3>
             <h5 class="widget-user-desc text-right">Web Designer</h5>
             </div>
             <div class="widget-user-image">
-            <img class="img-circle" src="../dist/img/user3-128x128.jpg" alt="User Avatar">
+            <img class="img-circle" src="{{ asset('admin-lte/dist/img/user3-128x128.jpg') }}" alt="User Avatar">
             </div>
             <div class="card-footer">
             <div class="row">
@@ -1403,7 +1403,7 @@
         <div class="card card-widget">
             <div class="card-header">
             <div class="user-block">
-                <img class="img-circle" src="../dist/img/user1-128x128.jpg" alt="User Image">
+                <img class="img-circle" src="{{ asset('admin-lte/dist/img/user1-128x128.jpg') }}" alt="User Image">
                 <span class="username"><a href="#">Jonathan Burke Jr.</a></span>
                 <span class="description">Shared publicly - 7:30 PM Today</span>
             </div>
@@ -1420,7 +1420,7 @@
             </div>
             <!-- /.card-header -->
             <div class="card-body">
-            <img class="img-fluid pad" src="../dist/img/photo2.png" alt="Photo">
+            <img class="img-fluid pad" src="{{ asset('admin-lte/dist/img/photo2.png') }}" alt="Photo">
 
             <p>I took this photo this morning. What do you guys think?</p>
             <button type="button" class="btn btn-default btn-sm"><i class="fas fa-share"></i> Share</button>
@@ -1431,7 +1431,7 @@
             <div class="card-footer card-comments">
             <div class="card-comment">
                 <!-- User image -->
-                <img class="img-circle img-sm" src="../dist/img/user3-128x128.jpg" alt="User Image">
+                <img class="img-circle img-sm" src="{{ asset('admin-lte/dist/img/user3-128x128.jpg') }}" alt="User Image">
 
                 <div class="comment-text">
                 <span class="username">
@@ -1446,7 +1446,7 @@
             <!-- /.card-comment -->
             <div class="card-comment">
                 <!-- User image -->
-                <img class="img-circle img-sm" src="../dist/img/user4-128x128.jpg" alt="User Image">
+                <img class="img-circle img-sm" src="{{ asset('admin-lte/dist/img/user4-128x128.jpg') }}" alt="User Image">
 
                 <div class="comment-text">
                 <span class="username">
@@ -1463,7 +1463,7 @@
             <!-- /.card-footer -->
             <div class="card-footer">
             <form action="#" method="post">
-                <img class="img-fluid img-circle img-sm" src="../dist/img/user4-128x128.jpg" alt="Alt Text">
+                <img class="img-fluid img-circle img-sm" src="{{ asset('admin-lte/dist/img/user4-128x128.jpg') }}" alt="Alt Text">
                 <!-- .img-push is used to add margin to elements next to floating images -->
                 <div class="img-push">
                 <input type="text" class="form-control form-control-sm" placeholder="Press enter to post comment">
@@ -1480,7 +1480,7 @@
         <div class="card card-widget">
             <div class="card-header">
             <div class="user-block">
-                <img class="img-circle" src="../dist/img/user1-128x128.jpg" alt="User Image">
+                <img class="img-circle" src="{{ asset('admin-lte/dist/img/user1-128x128.jpg') }}" alt="User Image">
                 <span class="username"><a href="#">Jonathan Burke Jr.</a></span>
                 <span class="description">Shared publicly - 7:30 PM Today</span>
             </div>
@@ -1510,7 +1510,7 @@
 
             <!-- Attachment -->
             <div class="attachment-block clearfix">
-                <img class="attachment-img" src="../dist/img/photo1.png" alt="Attachment Image">
+                <img class="attachment-img" src="{{ asset('admin-lte/dist/img/photo1.png') }}" alt="Attachment Image">
 
                 <div class="attachment-pushed">
                 <h4 class="attachment-heading"><a href="http://www.lipsum.com/">Lorem ipsum text generator</a></h4>
@@ -1534,7 +1534,7 @@
             <div class="card-footer card-comments">
             <div class="card-comment">
                 <!-- User image -->
-                <img class="img-circle img-sm" src="../dist/img/user3-128x128.jpg" alt="User Image">
+                <img class="img-circle img-sm" src="{{ asset('admin-lte/dist/img/user3-128x128.jpg') }}" alt="User Image">
 
                 <div class="comment-text">
                 <span class="username">
@@ -1549,7 +1549,7 @@
             <!-- /.card-comment -->
             <div class="card-comment">
                 <!-- User image -->
-                <img class="img-circle img-sm" src="../dist/img/user5-128x128.jpg" alt="User Image">
+                <img class="img-circle img-sm" src="{{ asset('admin-lte/dist/img/user5-128x128.jpg') }}" alt="User Image">
 
                 <div class="comment-text">
                 <span class="username">
@@ -1567,7 +1567,7 @@
             <!-- /.card-footer -->
             <div class="card-footer">
             <form action="#" method="post">
-                <img class="img-fluid img-circle img-sm" src="../dist/img/user4-128x128.jpg" alt="Alt Text">
+                <img class="img-fluid img-circle img-sm" src="{{ asset('admin-lte/dist/img/user4-128x128.jpg') }}" alt="Alt Text">
                 <!-- .img-push is used to add margin to elements next to floating images -->
                 <div class="img-push">
                 <input type="text" class="form-control form-control-sm" placeholder="Press enter to post comment">
