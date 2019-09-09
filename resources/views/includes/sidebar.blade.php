@@ -25,7 +25,7 @@
                 {{-- Add icons to the links using the .nav-icon class
                     with font-awesome or any other icon font library --}}
                 <li class="nav-item has-treeview {{ $page == 'dashboard' ? 'menu-open' : '' }}">
-                <a href="#" class="nav-link active">
+                <a href="#" class="nav-link {{ $page == 'dashboard' ? 'active' : '' }}">
                     <i class="nav-icon fas fa-tachometer-alt"></i>
                     <p>
                     Dashboard
@@ -54,7 +54,7 @@
                 </ul>
                 </li>
                 <li class="nav-item">
-                <a href="/widgets" class="nav-link {{ $section == 'widgets' ? 'active' : '' }}">
+                <a href="/widgets" class="nav-link {{ $page == 'widgets' ? 'active' : '' }}">
                     <i class="nav-icon fas fa-th"></i>
                     <p>
                     Widgets
