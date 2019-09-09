@@ -8,7 +8,7 @@ class ViewController extends Controller
 {
     public function show_index()
     {
-        $title      = 'AdminLTE Template | Dashboard';
+        $title      = 'Dashboard';
         $page       = 'dashboard';
         $section    = 'index';
         return view('index', compact('title', 'page', 'section'));
@@ -16,7 +16,7 @@ class ViewController extends Controller
 
     public function show_index_2()
     {
-        $title      = 'AdminLTE Template | Dashboard 2';
+        $title      = 'Dashboard 2';
         $page       = 'dashboard';
         $section    = 'index_2';
 
@@ -25,7 +25,7 @@ class ViewController extends Controller
 
     public function show_index_3()
     {
-        $title      = 'AdminLTE Template | Dashboard 3';
+        $title      = 'Dashboard 3';
         $page       = 'dashboard';
         $section    = 'index_3';
         return view('index_3', compact('title', 'page', 'section'));
@@ -33,9 +33,33 @@ class ViewController extends Controller
 
     public function show_widgets()
     {
-        $title      = 'AdminLTE Template | Widgets';
+        $title      = 'Widgets';
         $page       = 'widgets';
         $section    = '';
         return view('widgets', compact('title', 'page', 'section'));
+    }
+
+    public function show_charts_chart_js()
+    {
+        $title      = 'ChartJS';
+        $page       = 'charts';
+        $section    = 'chart_js';
+        return view('charts_chart_js', compact('title', 'page', 'section'));
+    }
+
+    public function show_charts_flot()
+    {
+        $title      = 'Flot Charts';
+        $page       = 'charts';
+        $section    = 'flot';
+        return view('charts_flot', compact('title', 'page', 'section'));
+    }
+
+    public function show_charts_inline()
+    {
+        $title      = 'Inline Charts';
+        $page       = 'charts';
+        $section    = 'inline';
+        return view('charts_inline', compact('title', 'page', 'section'));
     }
 }

@@ -1,10 +1,12 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>
+    AdminLTE 3 Template |
+
     @if(!empty($title))
         {{ $title }}
     @else
-        AdminLTE 3
+        
     @endif
 
 </title>
