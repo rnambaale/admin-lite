@@ -38,3 +38,7 @@ Route::get('/forms/editors', 'ViewController@show_forms_editors');
 Route::get('/tables/simple', 'ViewController@show_tables_simple');
 Route::get('/tables/data', 'ViewController@show_tables_data');
 Route::get('/tables/jsgrid', 'ViewController@show_tables_jsgrid');
+
+
+Route::get('/calendar', 'ViewController@show_calendar');
+Route::get('/gallery', 'ViewController@show_gallery');

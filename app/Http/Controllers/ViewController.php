@@ -176,4 +176,20 @@ class ViewController extends Controller
         $section    = 'tables_jsgrid';
         return view('tables_jsgrid', compact('title', 'page', 'section'));
     }
+
+    public function show_calendar()
+    {
+        $title      = 'Calendar';
+        $page       = 'calendar';
+        $section    = '';
+        return view('calendar', compact('title', 'page', 'section'));
+    }
+
+    public function show_gallery()
+    {
+        $title      = 'Gallery';
+        $page       = 'gallery';
+        $section    = '';
+        return view('gallery', compact('title', 'page', 'section'));
+    }
 }
