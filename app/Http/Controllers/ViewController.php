@@ -62,4 +62,12 @@ class ViewController extends Controller
         $section    = 'inline';
         return view('charts_inline', compact('title', 'page', 'section'));
     }
+
+    public function show_ui_general()
+    {
+        $title      = 'General UI';
+        $page       = 'ui';
+        $section    = 'general';
+        return view('ui_general', compact('title', 'page', 'section'));
+    }
 }

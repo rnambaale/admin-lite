@@ -140,8 +140,8 @@
                     </li>
                 </ul>
                 </li>
-                <li class="nav-item has-treeview">
-                <a href="#" class="nav-link">
+                <li class="nav-item has-treeview {{ $page == 'ui' ? 'menu-open' : '' }}">
+                <a href="#" class="nav-link {{ $page == 'ui' ? 'active' : '' }}">
                     <i class="nav-icon fas fa-tree"></i>
                     <p>
                     UI Elements
@@ -150,7 +150,7 @@
                 </a>
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
-                    <a href="pages/UI/general.html" class="nav-link">
+                    <a href="/ui/general" class="nav-link {{ $section == 'general' ? 'active' : '' }}">
                         <i class="far fa-circle nav-icon"></i>
                         <p>General</p>
                     </a>

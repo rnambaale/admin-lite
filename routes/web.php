@@ -20,3 +20,5 @@ Route::get('/widgets', 'ViewController@show_widgets');
 Route::get('/charts/chart_js', 'ViewController@show_charts_chart_js');
 Route::get('/charts/flot', 'ViewController@show_charts_flot');
 Route::get('/charts/inline', 'ViewController@show_charts_inline');
+
+Route::get('/ui/general', 'ViewController@show_ui_general');
