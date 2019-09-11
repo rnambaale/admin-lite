@@ -174,13 +174,13 @@
                     </a>
                     </li>
                     <li class="nav-item">
-                    <a href="pages/UI/modals.html" class="nav-link">
+                    <a href="/ui/modals" class="nav-link {{ $section == 'modals' ? 'active' : '' }}">
                         <i class="far fa-circle nav-icon"></i>
                         <p>Modals & Alerts</p>
                     </a>
                     </li>
                     <li class="nav-item">
-                    <a href="pages/UI/navbar.html" class="nav-link">
+                    <a href="/ui/navbar" class="nav-link {{ $section == 'navbar' ? 'active' : '' }}">
                         <i class="far fa-circle nav-icon"></i>
                         <p>Navbar & Tabs</p>
                     </a>

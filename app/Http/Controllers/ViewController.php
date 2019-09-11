@@ -94,4 +94,20 @@ class ViewController extends Controller
         $section    = 'sliders';
         return view('ui_sliders', compact('title', 'page', 'section'));
     }
+
+    public function show_ui_modals()
+    {
+        $title      = 'Modals & Alerts';
+        $page       = 'ui';
+        $section    = 'modals';
+        return view('ui_modals', compact('title', 'page', 'section'));
+    }
+
+    public function show_ui_navbar()
+    {
+        $title      = 'Navbar & Tabs';
+        $page       = 'ui';
+        $section    = 'navbar';
+        return view('ui_navbar', compact('title', 'page', 'section'));
+    }
 }

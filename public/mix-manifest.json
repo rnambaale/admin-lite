@@ -2,5 +2,6 @@
     "/js/app.js": "/js/app.js",
     "/css/app.css": "/css/app.css",
     "/js/pages/charts_inline.js": "/js/pages/charts_inline.js",
+    "/js/pages/ui_modals.js": "/js/pages/ui_modals.js",
     "/js/pages/ui_sliders.js": "/js/pages/ui_sliders.js"
 }

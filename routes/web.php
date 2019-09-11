@@ -25,3 +25,5 @@ Route::get('/ui/general', 'ViewController@show_ui_general');
 Route::get('/ui/icons', 'ViewController@show_ui_icons');
 Route::get('/ui/buttons', 'ViewController@show_ui_buttons');
 Route::get('/ui/sliders', 'ViewController@show_ui_sliders');
+Route::get('/ui/modals', 'ViewController@show_ui_modals');
+Route::get('/ui/navbar', 'ViewController@show_ui_navbar');

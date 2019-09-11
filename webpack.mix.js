@@ -24,3 +24,4 @@ mix.js(
 );
 
 mix.js("resources/js/pages/ui_sliders.js", "public/js/pages/ui_sliders.js");
+mix.js("resources/js/pages/ui_modals.js", "public/js/pages/ui_modals.js");
