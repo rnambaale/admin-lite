@@ -22,3 +22,5 @@ mix.js(
     "resources/js/pages/charts_inline.js",
     "public/js/pages/charts_inline.js"
 );
+
+mix.js("resources/js/pages/ui_sliders.js", "public/js/pages/ui_sliders.js");

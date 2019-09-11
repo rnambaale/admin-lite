@@ -168,7 +168,7 @@
                     </a>
                     </li>
                     <li class="nav-item">
-                    <a href="pages/UI/sliders.html" class="nav-link">
+                    <a href="/ui/sliders" class="nav-link {{ $section == 'sliders' ? 'active' : '' }}">
                         <i class="far fa-circle nav-icon"></i>
                         <p>Sliders</p>
                     </a>
