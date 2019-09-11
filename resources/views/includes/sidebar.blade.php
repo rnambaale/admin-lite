@@ -186,7 +186,7 @@
                     </a>
                     </li>
                     <li class="nav-item">
-                    <a href="pages/UI/timeline.html" class="nav-link">
+                    <a href="/ui/timeline" class="nav-link {{ $section == 'timeline' ? 'active' : '' }}">
                         <i class="far fa-circle nav-icon"></i>
                         <p>Timeline</p>
                     </a>

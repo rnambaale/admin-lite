@@ -110,4 +110,12 @@ class ViewController extends Controller
         $section    = 'navbar';
         return view('ui_navbar', compact('title', 'page', 'section'));
     }
+
+    public function show_ui_timeline()
+    {
+        $title      = 'Timeline';
+        $page       = 'ui';
+        $section    = 'timeline';
+        return view('ui_timeline', compact('title', 'page', 'section'));
+    }
 }
