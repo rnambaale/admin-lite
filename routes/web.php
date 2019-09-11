@@ -42,3 +42,7 @@ Route::get('/tables/jsgrid', 'ViewController@show_tables_jsgrid');
 
 Route::get('/calendar', 'ViewController@show_calendar');
 Route::get('/gallery', 'ViewController@show_gallery');
+
+Route::get('/mailbox/mailbox', 'ViewController@show_mailbox_mailbox');
+Route::get('/mailbox/compose', 'ViewController@show_mailbox_compose');
+Route::get('/mailbox/read_mail', 'ViewController@show_mailbox_read_mail');

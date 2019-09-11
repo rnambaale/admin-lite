@@ -192,4 +192,28 @@ class ViewController extends Controller
         $section    = '';
         return view('gallery', compact('title', 'page', 'section'));
     }
+
+    public function show_mailbox_mailbox()
+    {
+        $title      = 'Mailbox';
+        $page       = 'mailbox';
+        $section    = 'mailbox_mailbox';
+        return view('mailbox_mailbox', compact('title', 'page', 'section'));
+    }
+
+    public function show_mailbox_compose()
+    {
+        $title      = 'Compose';
+        $page       = 'mailbox';
+        $section    = 'mailbox_compose';
+        return view('mailbox_compose', compact('title', 'page', 'section'));
+    }
+
+    public function show_mailbox_read_mail()
+    {
+        $title      = 'Compose';
+        $page       = 'mailbox';
+        $section    = 'mailbox_read_mail';
+        return view('mailbox_read_mail', compact('title', 'page', 'section'));
+    }
 }

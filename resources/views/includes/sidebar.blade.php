@@ -275,8 +275,8 @@
                     </p>
                 </a>
                 </li>
-                <li class="nav-item has-treeview">
-                <a href="#" class="nav-link">
+                <li class="nav-item has-treeview {{ $page == 'mailbox' ? 'menu-open' : '' }}">
+                <a href="#" class="nav-link {{ $page == 'mailbox' ? 'active' : '' }}">
                     <i class="nav-icon far fa-envelope"></i>
                     <p>
                     Mailbox
@@ -285,19 +285,19 @@
                 </a>
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
-                    <a href="pages/mailbox/mailbox.html" class="nav-link">
+                    <a href="/mailbox/mailbox" class="nav-link {{ $section == 'mailbox_mailbox' ? 'active' : '' }}">
                         <i class="far fa-circle nav-icon"></i>
                         <p>Inbox</p>
                     </a>
                     </li>
                     <li class="nav-item">
-                    <a href="pages/mailbox/compose.html" class="nav-link">
+                    <a href="/mailbox/compose" class="nav-link {{ $section == 'mailbox_compose' ? 'active' : '' }}">
                         <i class="far fa-circle nav-icon"></i>
                         <p>Compose</p>
                     </a>
                     </li>
                     <li class="nav-item">
-                    <a href="pages/mailbox/read-mail.html" class="nav-link">
+                    <a href="/mailbox/read_mail" class="nav-link {{ $section == 'mailbox_read_mail' ? 'active' : '' }}">
                         <i class="far fa-circle nav-icon"></i>
                         <p>Read</p>
                     </a>
