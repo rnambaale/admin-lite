@@ -199,8 +199,8 @@
                     </li>
                 </ul>
                 </li>
-                <li class="nav-item has-treeview">
-                <a href="#" class="nav-link">
+                <li class="nav-item has-treeview {{ $page == 'forms' ? 'menu-open' : '' }}">
+                <a href="#" class="nav-link {{ $page == 'forms' ? 'active' : '' }}">
                     <i class="nav-icon fas fa-edit"></i>
                     <p>
                     Forms
@@ -209,19 +209,19 @@
                 </a>
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
-                    <a href="pages/forms/general.html" class="nav-link">
+                    <a href="/forms/general" class="nav-link {{ $section == 'forms_general' ? 'active' : '' }}">
                         <i class="far fa-circle nav-icon"></i>
                         <p>General Elements</p>
                     </a>
                     </li>
                     <li class="nav-item">
-                    <a href="pages/forms/advanced.html" class="nav-link">
+                    <a href="/forms/advanced" class="nav-link {{ $section == 'forms_advanced' ? 'active' : '' }}">
                         <i class="far fa-circle nav-icon"></i>
                         <p>Advanced Elements</p>
                     </a>
                     </li>
                     <li class="nav-item">
-                    <a href="pages/forms/editors.html" class="nav-link">
+                    <a href="/forms/editors" class="nav-link {{ $section == 'forms_editors' ? 'active' : '' }}">
                         <i class="far fa-circle nav-icon"></i>
                         <p>Editors</p>
                     </a>

@@ -126,4 +126,29 @@ class ViewController extends Controller
         $section    = 'ribbons';
         return view('ui_ribbons', compact('title', 'page', 'section'));
     }
+
+
+    public function show_forms_general()
+    {
+        $title      = 'General Form';
+        $page       = 'forms';
+        $section    = 'forms_general';
+        return view('forms_general', compact('title', 'page', 'section'));
+    }
+
+    public function show_forms_advanced()
+    {
+        $title      = 'Advanced Form';
+        $page       = 'forms';
+        $section    = 'forms_advanced';
+        return view('forms_advanced', compact('title', 'page', 'section'));
+    }
+
+    public function show_forms_editors()
+    {
+        $title      = 'Text Editors';
+        $page       = 'forms';
+        $section    = 'forms_editors';
+        return view('forms_editors', compact('title', 'page', 'section'));
+    }
 }

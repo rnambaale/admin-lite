@@ -26,3 +26,7 @@ mix.js(
 mix.js("resources/js/pages/ui_sliders.js", "public/js/pages/ui_sliders.js");
 mix.js("resources/js/pages/ui_modals.js", "public/js/pages/ui_modals.js");
 mix.js("resources/js/pages/ui_ribbons.js", "public/js/pages/ui_ribbons.js");
+mix.js(
+    "resources/js/pages/forms_advanced.js",
+    "public/js/pages/forms_advanced.js"
+);

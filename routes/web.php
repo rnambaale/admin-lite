@@ -29,3 +29,7 @@ Route::get('/ui/modals', 'ViewController@show_ui_modals');
 Route::get('/ui/navbar', 'ViewController@show_ui_navbar');
 Route::get('/ui/timeline', 'ViewController@show_ui_timeline');
 Route::get('/ui/ribbons', 'ViewController@show_ui_ribbons');
+
+Route::get('/forms/general', 'ViewController@show_forms_general');
+Route::get('/forms/advanced', 'ViewController@show_forms_advanced');
+Route::get('/forms/editors', 'ViewController@show_forms_editors');

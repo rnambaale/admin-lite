@@ -2,6 +2,7 @@
     "/js/app.js": "/js/app.js",
     "/css/app.css": "/css/app.css",
     "/js/pages/charts_inline.js": "/js/pages/charts_inline.js",
+    "/js/pages/forms_advanced.js": "/js/pages/forms_advanced.js",
     "/js/pages/ui_modals.js": "/js/pages/ui_modals.js",
     "/js/pages/ui_ribbons.js": "/js/pages/ui_ribbons.js",
     "/js/pages/ui_sliders.js": "/js/pages/ui_sliders.js"
