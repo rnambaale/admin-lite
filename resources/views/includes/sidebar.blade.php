@@ -304,8 +304,8 @@
                     </li>
                 </ul>
                 </li>
-                <li class="nav-item has-treeview">
-                <a href="#" class="nav-link">
+                <li class="nav-item has-treeview {{ $page == 'pages' ? 'menu-open' : '' }}">
+                <a href="#" class="nav-link {{ $page == 'pages' ? 'active' : '' }}">
                     <i class="nav-icon fas fa-book"></i>
                     <p>
                     Pages
@@ -314,49 +314,49 @@
                 </a>
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
-                    <a href="pages/examples/invoice.html" class="nav-link">
+                    <a href="/pages/invoice" class="nav-link {{ $section == 'pages_invoice' ? 'active' : '' }}">
                         <i class="far fa-circle nav-icon"></i>
                         <p>Invoice</p>
                     </a>
                     </li>
                     <li class="nav-item">
-                    <a href="pages/examples/profile.html" class="nav-link">
+                    <a href="/pages/profile" class="nav-link {{ $section == 'pages_profile' ? 'active' : '' }}">
                         <i class="far fa-circle nav-icon"></i>
                         <p>Profile</p>
                     </a>
                     </li>
                     <li class="nav-item">
-                    <a href="pages/examples/e_commerce.html" class="nav-link">
+                    <a href="/pages/e_commerce" class="nav-link {{ $section == 'pages_e_commerce' ? 'active' : '' }}">
                         <i class="far fa-circle nav-icon"></i>
                         <p>E-commerce</p>
                     </a>
                     </li>
                     <li class="nav-item">
-                    <a href="pages/examples/projects.html" class="nav-link">
+                    <a href="/pages/projects" class="nav-link {{ $section == 'pages_projects' ? 'active' : '' }}">
                         <i class="far fa-circle nav-icon"></i>
                         <p>Projects</p>
                     </a>
                     </li>
                     <li class="nav-item">
-                    <a href="pages/examples/project_add.html" class="nav-link">
+                    <a href="/pages/project_add" class="nav-link {{ $section == 'pages_project_add' ? 'active' : '' }}">
                         <i class="far fa-circle nav-icon"></i>
                         <p>Project Add</p>
                     </a>
                     </li>
                     <li class="nav-item">
-                    <a href="pages/examples/project_edit.html" class="nav-link">
+                    <a href="/pages/project_edit" class="nav-link {{ $section == 'pages_project_edit' ? 'active' : '' }}">
                         <i class="far fa-circle nav-icon"></i>
                         <p>Project Edit</p>
                     </a>
                     </li>
                     <li class="nav-item">
-                    <a href="pages/examples/project_detail.html" class="nav-link">
+                    <a href="/pages/project_detail" class="nav-link {{ $section == 'pages_project_detail' ? 'active' : '' }}">
                         <i class="far fa-circle nav-icon"></i>
                         <p>Project Detail</p>
                     </a>
                     </li>
                     <li class="nav-item">
-                    <a href="pages/examples/contacts.html" class="nav-link">
+                    <a href="/pages/contacts" class="nav-link {{ $section == 'pages_contacts' ? 'active' : '' }}">
                         <i class="far fa-circle nav-icon"></i>
                         <p>Contacts</p>
                     </a>

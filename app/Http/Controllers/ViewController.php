@@ -216,4 +216,68 @@ class ViewController extends Controller
         $section    = 'mailbox_read_mail';
         return view('mailbox_read_mail', compact('title', 'page', 'section'));
     }
+
+    public function show_pages_invoice()
+    {
+        $title      = 'Invoice';
+        $page       = 'pages';
+        $section    = 'pages_invoice';
+        return view('pages_invoice', compact('title', 'page', 'section'));
+    }
+
+    public function show_pages_profile()
+    {
+        $title      = 'Profile';
+        $page       = 'pages';
+        $section    = 'pages_profile';
+        return view('pages_profile', compact('title', 'page', 'section'));
+    }
+
+    public function show_pages_e_commerce()
+    {
+        $title      = 'E-commerce';
+        $page       = 'pages';
+        $section    = 'pages_e_commerce';
+        return view('pages_e_commerce', compact('title', 'page', 'section'));
+    }
+
+    public function show_pages_projects()
+    {
+        $title      = 'Projects';
+        $page       = 'pages';
+        $section    = 'pages_projects';
+        return view('pages_projects', compact('title', 'page', 'section'));
+    }
+
+    public function show_pages_project_add()
+    {
+        $title      = 'Project Add';
+        $page       = 'pages';
+        $section    = 'pages_project_add';
+        return view('pages_project_add', compact('title', 'page', 'section'));
+    }
+
+    public function show_pages_project_edit()
+    {
+        $title      = 'Project Edit';
+        $page       = 'pages';
+        $section    = 'pages_project_edit';
+        return view('pages_project_edit', compact('title', 'page', 'section'));
+    }
+
+    public function show_pages_project_detail()
+    {
+        $title      = 'Project Detail';
+        $page       = 'pages';
+        $section    = 'pages_project_detail';
+        return view('pages_project_detail', compact('title', 'page', 'section'));
+    }
+
+    public function show_pages_contacts()
+    {
+        $title      = 'Contacts';
+        $page       = 'pages';
+        $section    = 'pages_contacts';
+        return view('pages_contacts', compact('title', 'page', 'section'));
+    }
 }

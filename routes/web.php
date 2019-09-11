@@ -46,3 +46,12 @@ Route::get('/gallery', 'ViewController@show_gallery');
 Route::get('/mailbox/mailbox', 'ViewController@show_mailbox_mailbox');
 Route::get('/mailbox/compose', 'ViewController@show_mailbox_compose');
 Route::get('/mailbox/read_mail', 'ViewController@show_mailbox_read_mail');
+
+Route::get('/pages/invoice', 'ViewController@show_pages_invoice');
+Route::get('/pages/profile', 'ViewController@show_pages_profile');
+Route::get('/pages/e_commerce', 'ViewController@show_pages_e_commerce');
+Route::get('/pages/projects', 'ViewController@show_pages_projects');
+Route::get('/pages/project_add', 'ViewController@show_pages_project_add');
+Route::get('/pages/project_edit', 'ViewController@show_pages_project_edit');
+Route::get('/pages/project_detail', 'ViewController@show_pages_project_detail');
+Route::get('/pages/contacts', 'ViewController@show_pages_contacts');
