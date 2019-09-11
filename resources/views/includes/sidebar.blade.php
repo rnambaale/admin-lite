@@ -192,7 +192,7 @@
                     </a>
                     </li>
                     <li class="nav-item">
-                    <a href="pages/UI/ribbons.html" class="nav-link">
+                    <a href="/ui/ribbons" class="nav-link {{ $section == 'ribbons' ? 'active' : '' }}">
                         <i class="far fa-circle nav-icon"></i>
                         <p>Ribbons</p>
                     </a>

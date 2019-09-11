@@ -118,4 +118,12 @@ class ViewController extends Controller
         $section    = 'timeline';
         return view('ui_timeline', compact('title', 'page', 'section'));
     }
+
+    public function show_ui_ribbons()
+    {
+        $title      = 'Ribbons';
+        $page       = 'ui';
+        $section    = 'ribbons';
+        return view('ui_ribbons', compact('title', 'page', 'section'));
+    }
 }
