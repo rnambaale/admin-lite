@@ -162,7 +162,7 @@
                     </a>
                     </li>
                     <li class="nav-item">
-                    <a href="pages/UI/buttons.html" class="nav-link">
+                    <a href="/ui/buttons" class="nav-link {{ $section == 'buttons' ? 'active' : '' }}">
                         <i class="far fa-circle nav-icon"></i>
                         <p>Buttons</p>
                     </a>

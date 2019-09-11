@@ -78,4 +78,12 @@ class ViewController extends Controller
         $section    = 'icons';
         return view('ui_icons', compact('title', 'page', 'section'));
     }
+
+    public function show_ui_buttons()
+    {
+        $title      = 'Buttons';
+        $page       = 'ui';
+        $section    = 'buttons';
+        return view('ui_buttons', compact('title', 'page', 'section'));
+    }
 }

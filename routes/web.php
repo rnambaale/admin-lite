@@ -23,3 +23,4 @@ Route::get('/charts/inline', 'ViewController@show_charts_inline');
 
 Route::get('/ui/general', 'ViewController@show_ui_general');
 Route::get('/ui/icons', 'ViewController@show_ui_icons');
+Route::get('/ui/buttons', 'ViewController@show_ui_buttons');
