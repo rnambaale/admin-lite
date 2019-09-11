@@ -156,7 +156,7 @@
                     </a>
                     </li>
                     <li class="nav-item">
-                    <a href="pages/UI/icons.html" class="nav-link">
+                    <a href="/ui/icons" class="nav-link {{ $section == 'icons' ? 'active' : '' }}">
                         <i class="far fa-circle nav-icon"></i>
                         <p>Icons</p>
                     </a>

@@ -70,4 +70,12 @@ class ViewController extends Controller
         $section    = 'general';
         return view('ui_general', compact('title', 'page', 'section'));
     }
+
+    public function show_ui_icons()
+    {
+        $title      = 'Icons';
+        $page       = 'ui';
+        $section    = 'icons';
+        return view('ui_icons', compact('title', 'page', 'section'));
+    }
 }
