@@ -363,8 +363,8 @@
                     </li>
                 </ul>
                 </li>
-                <li class="nav-item has-treeview">
-                <a href="#" class="nav-link">
+                <li class="nav-item has-treeview {{ $page == 'extras' ? 'menu-open' : '' }}">
+                <a href="#" class="nav-link {{ $page == 'extras' ? 'active' : '' }}">
                     <i class="nav-icon far fa-plus-square"></i>
                     <p>
                     Extras
@@ -373,55 +373,55 @@
                 </a>
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
-                    <a href="pages/examples/login.html" class="nav-link">
+                    <a href="/extras/login" class="nav-link {{ $section == 'extras_login' ? 'active' : '' }}">
                         <i class="far fa-circle nav-icon"></i>
                         <p>Login</p>
                     </a>
                     </li>
                     <li class="nav-item">
-                    <a href="pages/examples/register.html" class="nav-link">
+                    <a href="/extras/register" class="nav-link {{ $section == 'extras_register' ? 'active' : '' }}">
                         <i class="far fa-circle nav-icon"></i>
                         <p>Register</p>
                     </a>
                     </li>
                     <li class="nav-item">
-                    <a href="pages/examples/lockscreen.html" class="nav-link">
+                    <a href="/extras/lockscreen" class="nav-link {{ $section == 'extras_lockscreen' ? 'active' : '' }}">
                         <i class="far fa-circle nav-icon"></i>
                         <p>Lockscreen</p>
                     </a>
                     </li>
                     <li class="nav-item">
-                    <a href="pages/examples/legacy-user-menu.html" class="nav-link">
+                    <a href="/extras/legacy_user_menu" class="nav-link {{ $section == 'extras_legacy_user_menu' ? 'active' : '' }}">
                         <i class="far fa-circle nav-icon"></i>
                         <p>Legacy User Menu</p>
                     </a>
                     </li>
                     <li class="nav-item">
-                    <a href="pages/examples/language-menu.html" class="nav-link">
+                    <a href="/extras/language_menu" class="nav-link {{ $section == 'extras_language_menu' ? 'active' : '' }}">
                         <i class="far fa-circle nav-icon"></i>
                         <p>Language Menu</p>
                     </a>
                     </li>
                     <li class="nav-item">
-                    <a href="pages/examples/404.html" class="nav-link">
+                    <a href="/extras/404" class="nav-link {{ $section == 'extras_404' ? 'active' : '' }}">
                         <i class="far fa-circle nav-icon"></i>
                         <p>Error 404</p>
                     </a>
                     </li>
                     <li class="nav-item">
-                    <a href="pages/examples/500.html" class="nav-link">
+                    <a href="/extras/500" class="nav-link {{ $section == 'extras_500' ? 'active' : '' }}">
                         <i class="far fa-circle nav-icon"></i>
                         <p>Error 500</p>
                     </a>
                     </li>
                     <li class="nav-item">
-                    <a href="pages/examples/blank.html" class="nav-link">
+                    <a href="/extras/blank" class="nav-link {{ $section == 'extras_blank' ? 'active' : '' }}">
                         <i class="far fa-circle nav-icon"></i>
                         <p>Blank Page</p>
                     </a>
                     </li>
                     <li class="nav-item">
-                    <a href="starter.html" class="nav-link">
+                    <a href="/extras/starter" class="nav-link {{ $section == 'extras_starter' ? 'active' : '' }}">
                         <i class="far fa-circle nav-icon"></i>
                         <p>Starter Page</p>
                     </a>

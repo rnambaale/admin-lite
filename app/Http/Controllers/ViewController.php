@@ -280,4 +280,77 @@ class ViewController extends Controller
         $section    = 'pages_contacts';
         return view('pages_contacts', compact('title', 'page', 'section'));
     }
+
+
+    public function show_extras_login()
+    {
+        $title      = 'Login';
+        $page       = 'extras';
+        $section    = 'extras_login';
+        return view('extras_login', compact('title', 'page', 'section'));
+    }
+
+    public function show_extras_register()
+    {
+        $title      = 'Register';
+        $page       = 'extras';
+        $section    = 'extras_register';
+        return view('extras_register', compact('title', 'page', 'section'));
+    }
+
+    public function show_extras_lockscreen()
+    {
+        $title      = 'Lock Screen';
+        $page       = 'extras';
+        $section    = 'extras_lockscreen';
+        return view('extras_lockscreen', compact('title', 'page', 'section'));
+    }
+
+    public function show_extras_legacy_user_menu()
+    {
+        $title      = 'Legacy Menu';
+        $page       = 'extras';
+        $section    = 'extras_legacy_user_menu';
+        return view('extras_legacy_user_menu', compact('title', 'page', 'section'));
+    }
+
+    public function show_extras_language_menu()
+    {
+        $title      = 'Language Menu';
+        $page       = 'extras';
+        $section    = 'extras_language_menu';
+        return view('extras_language_menu', compact('title', 'page', 'section'));
+    }
+
+    public function show_extras_404()
+    {
+        $title      = '404';
+        $page       = 'extras';
+        $section    = 'extras_404';
+        return view('extras_404', compact('title', 'page', 'section'));
+    }
+
+    public function show_extras_500()
+    {
+        $title      = '500';
+        $page       = 'extras';
+        $section    = 'extras_500';
+        return view('extras_500', compact('title', 'page', 'section'));
+    }
+
+    public function show_extras_blank()
+    {
+        $title      = 'Blank';
+        $page       = 'extras';
+        $section    = 'extras_blank';
+        return view('extras_blank', compact('title', 'page', 'section'));
+    }
+
+    public function show_extras_starter()
+    {
+        $title      = 'Starter';
+        $page       = 'extras';
+        $section    = 'extras_starter';
+        return view('extras_starter', compact('title', 'page', 'section'));
+    }
 }

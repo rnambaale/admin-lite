@@ -55,3 +55,14 @@ Route::get('/pages/project_add', 'ViewController@show_pages_project_add');
 Route::get('/pages/project_edit', 'ViewController@show_pages_project_edit');
 Route::get('/pages/project_detail', 'ViewController@show_pages_project_detail');
 Route::get('/pages/contacts', 'ViewController@show_pages_contacts');
+
+
+Route::get('/extras/login', 'ViewController@show_extras_login');
+Route::get('/extras/register', 'ViewController@show_extras_register');
+Route::get('/extras/lockscreen', 'ViewController@show_extras_lockscreen');
+Route::get('/extras/legacy_user_menu', 'ViewController@show_extras_legacy_user_menu');
+Route::get('/extras/language_menu', 'ViewController@show_extras_language_menu');
+Route::get('/extras/404', 'ViewController@show_extras_404');
+Route::get('/extras/500', 'ViewController@show_extras_500');
+Route::get('/extras/blank', 'ViewController@show_extras_blank');
+Route::get('/extras/starter', 'ViewController@show_extras_starter');
