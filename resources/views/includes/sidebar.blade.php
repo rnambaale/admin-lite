@@ -228,8 +228,8 @@
                     </li>
                 </ul>
                 </li>
-                <li class="nav-item has-treeview">
-                <a href="#" class="nav-link">
+                <li class="nav-item has-treeview {{ $page == 'tables' ? 'menu-open' : '' }}">
+                <a href="#" class="nav-link {{ $page == 'tables' ? 'active' : '' }}">
                     <i class="nav-icon fas fa-table"></i>
                     <p>
                     Tables
@@ -238,19 +238,19 @@
                 </a>
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
-                    <a href="pages/tables/simple.html" class="nav-link">
+                    <a href="/tables/simple" class="nav-link {{ $section == 'tables_simple' ? 'active' : '' }}">
                         <i class="far fa-circle nav-icon"></i>
                         <p>Simple Tables</p>
                     </a>
                     </li>
                     <li class="nav-item">
-                    <a href="pages/tables/data.html" class="nav-link">
+                    <a href="/tables/data" class="nav-link {{ $section == 'tables_data' ? 'active' : '' }}">
                         <i class="far fa-circle nav-icon"></i>
                         <p>DataTables</p>
                     </a>
                     </li>
                     <li class="nav-item">
-                    <a href="pages/tables/jsgrid.html" class="nav-link">
+                    <a href="/tables/jsgrid" class="nav-link {{ $section == 'tables_jsgrid' ? 'active' : '' }}">
                         <i class="far fa-circle nav-icon"></i>
                         <p>jsGrid</p>
                     </a>

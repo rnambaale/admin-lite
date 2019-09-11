@@ -151,4 +151,29 @@ class ViewController extends Controller
         $section    = 'forms_editors';
         return view('forms_editors', compact('title', 'page', 'section'));
     }
+
+
+    public function show_tables_simple()
+    {
+        $title      = 'Simple Tables';
+        $page       = 'tables';
+        $section    = 'tables_simple';
+        return view('tables_simple', compact('title', 'page', 'section'));
+    }
+
+    public function show_tables_data()
+    {
+        $title      = 'DataTables';
+        $page       = 'tables';
+        $section    = 'tables_data';
+        return view('tables_data', compact('title', 'page', 'section'));
+    }
+
+    public function show_tables_jsgrid()
+    {
+        $title      = 'jsGrid';
+        $page       = 'tables';
+        $section    = 'tables_jsgrid';
+        return view('tables_jsgrid', compact('title', 'page', 'section'));
+    }
 }

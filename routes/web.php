@@ -33,3 +33,8 @@ Route::get('/ui/ribbons', 'ViewController@show_ui_ribbons');
 Route::get('/forms/general', 'ViewController@show_forms_general');
 Route::get('/forms/advanced', 'ViewController@show_forms_advanced');
 Route::get('/forms/editors', 'ViewController@show_forms_editors');
+
+
+Route::get('/tables/simple', 'ViewController@show_tables_simple');
+Route::get('/tables/data', 'ViewController@show_tables_data');
+Route::get('/tables/jsgrid', 'ViewController@show_tables_jsgrid');
