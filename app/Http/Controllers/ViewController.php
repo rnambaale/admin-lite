@@ -282,6 +282,15 @@ class ViewController extends Controller
     }
 
 
+    public function show_pages_layout_top_nav()
+    {
+        $title      = 'Top Navigation Example 3.0';
+        $page       = 'layouts';
+        $section    = 'top_nav';
+        return view('pages_layout_top_nav', compact('title', 'page', 'section'));
+    }
+
+
     public function show_extras_login()
     {
         $title      = 'Login';

@@ -56,6 +56,8 @@ Route::get('/pages/project_edit', 'ViewController@show_pages_project_edit');
 Route::get('/pages/project_detail', 'ViewController@show_pages_project_detail');
 Route::get('/pages/contacts', 'ViewController@show_pages_contacts');
 
+Route::get('/pages/layout_top_nav', 'ViewController@show_pages_layout_top_nav');
+
 
 Route::get('/extras/login', 'ViewController@show_extras_login');
 Route::get('/extras/register', 'ViewController@show_extras_register');

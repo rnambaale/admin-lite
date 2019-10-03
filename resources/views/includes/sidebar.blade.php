@@ -62,7 +62,7 @@
                     </p>
                 </a>
                 </li>
-                <li class="nav-item has-treeview">
+                <li class="nav-item has-treeview {{ $page == 'layouts' ? 'menu-open' : '' }}">
                 <a href="#" class="nav-link">
                     <i class="nav-icon fas fa-copy"></i>
                     <p>
@@ -73,7 +73,7 @@
                 </a>
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
-                    <a href="pages/layout/top-nav.html" class="nav-link">
+                    <a href="/pages/layout_top_nav" class="nav-link {{ $section == 'top_nav' ? 'active' : '' }}">
                         <i class="far fa-circle nav-icon"></i>
                         <p>Top Navigation</p>
                     </a>
